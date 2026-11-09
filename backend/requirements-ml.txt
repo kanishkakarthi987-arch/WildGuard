@@ -1,0 +1,4 @@
+# Optional: server-side camera-trap detection (POST /api/ingest/camera with no manual label).
+# Skip this file if cameras run the model on the edge and send detections, or if rangers label images.
+-r requirements.txt
+ultralytics>=8.3

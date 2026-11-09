@@ -1,0 +1,19 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+backend/.env
+# database, uploaded images and the generated admin token all live here
+backend/data/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.env.local
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
